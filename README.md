@@ -133,6 +133,15 @@ int main() {
 
 Please note that this code is a basic example to get you started. You may need to modify it to suit your specific requirements and the display library you are using. Also, make sure to include the necessary font array or font library to display characters on the screen.
 
+## forth `code1.f`
+While converting the whole C program into Forth without using any libraries can be quite complex and lengthy, 
+here is a rough simplification of how it could look in Forth, using a similar pattern of function definition and execution. 
+This is a high-level pseudo-Forth code and is not meant to be a direct working translation of your C code, 
+but it should give you an idea of how you might structure your Forth code. Please note that it may be 
+not possible to implement everything from the C code to Forth code without libraries especially due to the differences between two languages.
+
+In Forth, you often directly interface with the hardware or the operating system. 
+For I2C communication, you may need to write additional Forth words (Forth's equivalent of functions) to interact with the I2C interface of your specific system, which is beyond the scope of this example. The specifics will depend on the Forth system you're using and the platform you're running it on. For a full, working solution you should consult the documentation of your Forth system and the datasheet of your hardware.
 
 ## Ref
 - https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/
